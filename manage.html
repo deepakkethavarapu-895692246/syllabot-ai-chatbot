@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><title>Manage Uploaded Syllabi</title></head>
+<body>
+<h2>Manage Uploaded Syllabi</h2>
+
+{% for key, data in index.items() %}
+    <div style="border:1px solid #aaa; margin:10px; padding:10px;">
+        <b>{{ data.course_name }}</b><br>
+        Dept: {{ data.department }} | No: {{ data.course_number }}<br>
+        File: {{ data.filename }}<br><br>
+
+        <form method="post" style="display:inline;">
+            <input type="hidden" name="key" value="{{ key }}">
+            <input type="submit" name="action" value="delete" style="background:red; color:white;">
+        </form>
+
+        <form method="post" style="display:inline; margin-left:10px;">
+            <input type="hidden" name="key" value="{{ key }}">
+            New Name: <input type="text" name="new_name" placeholder="New course name">
+            <input type="submit" name="action" value="update_name">
+        </form>
+    </div>
+{% endfor %}
+
+<br>
+<a href="/upload">⬅️ Back to Professor Dashboard</a>
+</body>
+</html>

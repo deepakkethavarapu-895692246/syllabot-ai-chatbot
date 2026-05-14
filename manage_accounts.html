@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Manage Professor Accounts</title></head>
+<body>
+<h2>Manage Professor Accounts</h2>
+
+{% for username in users %}
+    <div style="margin-bottom:10px;">
+        {{ username }}
+        {% if username != current_user %}
+            <form method="post" style="display:inline;">
+                <input type="hidden" name="user_to_delete" value="{{ username }}">
+                <input type="submit" value="Delete" style="background:red; color:white;">
+            </form>
+        {% else %}
+            <b>(You)</b>
+        {% endif %}
+    </div>
+{% endfor %}
+
+<br>
+<a href="/upload">⬅️ Back to Professor Dashboard</a>
+</body>
+</html>
