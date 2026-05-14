@@ -104,5 +104,5 @@ Professors can upload, manage, and delete course syllabuses securely
 ## Author
 **Deepak Kethavarapu**
 - Email: deepakkethavarapu2024@gmail.com
-- LinkedIn: [Deepak Kethavarapu](www.linkedin.com/in/deepak-kethavarapu-895692246)
+- LinkedIn:(www.linkedin.com/in/deepak-kethavarapu-895692246)
 - GitHub: [deepakkethavarapu-895692246](https://github.com/deepakkethavarapu-895692246)
