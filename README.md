@@ -1,10 +1,7 @@
-# SyllaBot — AI-Powered Intelligent Syllabus Chatbot
+# SyllaBot - AI-Powered Intelligent Syllabus Chatbot
 
 ## Overview
 SyllaBot is a full-stack AI web application that allows students to instantly ask questions about their course syllabuses using natural language. Professors can upload course syllabuses as PDFs, and students can query them through an intelligent chatbot powered by OpenAI's GPT API. Built with Flask, Bootstrap, and OpenAI API.
-
-## Live Demo
-![SyllaBot Demo](screenshots/demo.png)
 
 ## Key Features
 - **AI-Powered Q&A** — Students ask questions in plain English and get instant answers from course syllabuses
@@ -107,5 +104,5 @@ Professors can upload, manage, and delete course syllabuses securely
 ## Author
 **Deepak Kethavarapu**
 - Email: deepakkethavarapu2024@gmail.com
-- LinkedIn: [Deepak Kethavarapu](https://linkedin.com/in/deepak-kethavarapu)
+- LinkedIn: [Deepak Kethavarapu](www.linkedin.com/in/deepak-kethavarapu-895692246)
 - GitHub: [deepakkethavarapu-895692246](https://github.com/deepakkethavarapu-895692246)
